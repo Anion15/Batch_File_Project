@@ -1,10 +1,14 @@
 # Batch_File_Project
-Do not abuse the code in this project
-The creator of this code (Anion15) is not responsible if this code is abused.
-If you abuse this to harm others, you may be subject to severe legal punishment.
+Please do not abuse the code in this project.
+This project is ransomware of a malicious virus that carries a significant risk.
+The author of this code (Anion15) assumes no responsibility if this code is abused.
+ALL USERS OF THIS CODE ARE RESPONSIBLE AND DEFINES THE IMPLIED AGREEMENT THAT THE USERS OF THIS CODE, THAT THE USER, ARE LIABLE FOR ALL DAMAGES THAT MAY BE RESULTING IN THE FUTURE.
+Therefore, I swear by this letter that the authors of this code will not be punished in case of legal trouble. I will consider it as a material that can serve as evidence in the future.
+It is judged that the user is also aware that if they abuse this and cause harm to others, they may be subject to severe legal punishment.
 Recognize the dangers of this code and handle it with care.
-Never run it on your own computer. Your computer may then be infected with ransomware.
-If you remake this code, please credit this author and source.
+Don't run it on your own computer. Ransomware can infect your computer. If you are infected, please recover by referring to the #recovery key below.
+This virus is very difficult to recover and can be dangerous if used for real attack purposes. There are many more risks like encrypting all files, disabling Windows defense, disabling computer antivirus similar to several antiviruses, changing computer login password, etc. Use with caution. For reference, this virus comes back to life even if the computer is rebooted. Bottom line, don't run this virus! The creator believes that this damage will be substantial, and cannot guarantee any damage. See above.
+Finally, if you remake this code, please credit this author and source.
 
 # Recovery key
 The first recovery key is stored in the “passwords” variable called “recovery”. If you want to change this recovery key password, change the recovery password by modifying the code on line 181 or the code content in 295 and 297. If it still doesn't work, type “developerdecryptkey” in your passwords to recover it with your developer key.
