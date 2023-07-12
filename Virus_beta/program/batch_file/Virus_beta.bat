@@ -46,7 +46,7 @@ echo .
 echo .
 echo Please do not abuse the code in this project. 
 echo This project is ransomware of a malicious virus that carries a significant risk. 
-echo The author of this code (Anion15) assumes no responsibility if this code is abused. 
+echo The author of this code (Anion15) assumes no responsibility i.f this code is abused. 
 echo ALL USERS OF THIS CODE ARE RESPONSIBLE AND DEFINES THE IMPLIED AGREEMENT THAT THE USERS OF THIS CODE, THAT THE USER, ARE LIABLE FOR ALL DAMAGES THAT MAY BE RESULTING IN THE FUTURE. 
 echo Therefore, I swear by this letter that the authors of this code will not be punished in case of legal trouble. 
 echo I will consider it as a material that can serve as evidence in the future. 
