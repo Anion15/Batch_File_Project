@@ -10,7 +10,7 @@ Don't run it on your own computer. Ransomware can infect your computer. If you a
 This virus is very difficult to recover and can be dangerous if used for real attack purposes. There are many more risks like encrypting all files, disabling Windows defense, disabling computer antivirus similar to several antiviruses, changing computer login password, etc. Use with caution. For reference, this virus comes back to life even if the computer is rebooted. Bottom line, don't run this virus! The creator believes that this damage will be substantial, and cannot guarantee any damage. See above.
 Finally, if you remake this code, please credit this author and source.
 (We'll share in detail how to recover soon.)
- ![mazandi profile](http://mazandi.herokuapp.com/api?handle={handle}&theme=dark)
+ ![mazandi profile](http://mazandi.herokuapp.com/api?handle={Anion15}&theme=dark)
 # Recovery key
 The first recovery key is stored in the “passwords” variable called “recovery”. If you want to change this recovery key password, change the recovery password by modifying the code on line 181 or the code content in 295 and 297. If it still doesn't work, type “developerdecryptkey” in your passwords to recover it with your developer key.
 
