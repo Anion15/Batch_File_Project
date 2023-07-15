@@ -63,7 +63,7 @@ Finally, if you remake this code, please credit this author and source. <br>
 * Step 5
 
   <br>
-  Press Win + E to enter the following and delete the clickme
+  Press Win + R to enter the following and delete the clickme
   <br>
   
   ```
