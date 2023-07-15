@@ -48,10 +48,21 @@ Finally, if you remake this code, please credit this author and source. <br>
 <br>
   Type "developerdecryptkey" in the box that says "Recovery Key:" to recover.
 <br>
+
 <br>
 
 * Step 4
 
+  ![5](https://github.com/Anion15/Batch_File_Project/assets/125840838/087791b9-75ee-433e-80d6-672e5da8f912)
+  
+  <br>
+  Wait for 5 seconds.
+  <br>
+
+
+
+* Step 5
+  
 
 
 ------------------------------------
