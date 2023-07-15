@@ -18,7 +18,7 @@ Finally, if you remake this code, please credit this author and source. <br>
 <br>
 <br>
 <br>
-<br>
+
 # Detailed recovery methods
 <br>
 * Step 1<br>
