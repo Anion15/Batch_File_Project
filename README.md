@@ -11,6 +11,9 @@ Don't run it on your own computer. Ransomware can infect your computer. If you a
 This virus is very difficult to recover and can be dangerous if used for real attack purposes. There are many more risks like encrypting all files, disabling Windows defense, disabling computer antivirus similar to several antiviruses, changing computer login password, etc. Use with caution. For reference, this virus comes back to life even if the computer is rebooted. Bottom line, don't run this virus! The creator believes that this damage will be substantial, and cannot guarantee any damage. See above.
 Finally, if you remake this code, please credit this author and source.
 (We'll share in detail how to recover soon.)
+------------------------------------
+# Detailed recovery methods
+
 
 
 # Recovery key
