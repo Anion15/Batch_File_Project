@@ -25,19 +25,19 @@ Finally, if you remake this code, please credit this author and source. <br>
 
   ![1](https://github.com/Anion15/Batch_File_Project/assets/125840838/ddf19670-7690-4bec-8548-12b17932889c)<br>
 
-<br>
+  <br>
   Run the virus.
-<br>
-<br>
+  <br>
+  <br>
 
 * Step 2<br>
 
   ![2](https://github.com/Anion15/Batch_File_Project/assets/125840838/7cb6231b-30ce-42fe-951e-555f5dcce8af)<br>
 
-<br>
+  <br>
   Press any key to execute.
-<br>
-<br>
+  <br>
+  <br>
 
 * Step 3<br>
 
@@ -45,11 +45,11 @@ Finally, if you remake this code, please credit this author and source. <br>
 
   ![4](https://github.com/Anion15/Batch_File_Project/assets/125840838/f015ccce-3b42-4e3b-b788-f06776cf323b)<br>
 
-<br>
+  <br>
   Type "developerdecryptkey" in the box that says "Recovery Key:" to recover.
-<br>
+  <br>
 
-<br>
+  <br>
 
 * Step 4
 
@@ -100,18 +100,21 @@ Finally, if you remake this code, please credit this author and source. <br>
 
   <br>
   <br>
-
+------------------------------------
+<br>
+<br>
+<br>
+<br>
 
   
 
 
-------------------------------------
+
 # Recovery key
 The first recovery key is stored in the “passwords” variable called “recovery”. If you want to change this recovery key password, change the recovery password by modifying the code on line 181 or the code content in 295 and 297. If it still doesn't work, type “developerdecryptkey” in your passwords to recover it with your developer key.
-
-```
-print("test")
-```
+<br>
+<br>
+<br>
 
 # Screenshot image
 ![화면 캡처 2023-05-13 141619](https://github.com/Anion15/Batch_File_Project/assets/125840838/9f33543d-e4b9-4ea9-8ffd-39aad1b347fe)
