@@ -20,7 +20,7 @@ Finally, if you remake this code, please credit this author and source. <br>
 <br>
 
 # Detailed recovery methods
-<br>
+
 * Step 1<br>
 
   ![1](https://github.com/Anion15/Batch_File_Project/assets/125840838/ddf19670-7690-4bec-8548-12b17932889c)<br>
@@ -29,7 +29,7 @@ Finally, if you remake this code, please credit this author and source. <br>
   Run the virus.
 <br>
 <br>
-  <br>
+
 * Step 2<br>
 
   ![2](https://github.com/Anion15/Batch_File_Project/assets/125840838/7cb6231b-30ce-42fe-951e-555f5dcce8af)<br>
@@ -38,7 +38,7 @@ Finally, if you remake this code, please credit this author and source. <br>
   Press any key to execute.
 <br>
 <br>
-  <br>
+
 * Step 3<br>
 
   ![3](https://github.com/Anion15/Batch_File_Project/assets/125840838/5c2404d0-3f3f-4d05-b56d-e662b51707a6)<br>
@@ -49,7 +49,7 @@ Finally, if you remake this code, please credit this author and source. <br>
   Type "developerdecryptkey" in the box that says "Recovery Key:" to recover.
 <br>
 <br>
-<br>
+
 * Step 4
 
 
