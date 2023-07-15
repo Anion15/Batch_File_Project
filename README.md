@@ -13,9 +13,6 @@ Finally, if you remake this code, please credit this author and source.
 (We'll share in detail how to recover soon.)
 
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Anion15)](https://github.com/Anion15/github-readme-stats)
-
-
 # Recovery key
 The first recovery key is stored in the “passwords” variable called “recovery”. If you want to change this recovery key password, change the recovery password by modifying the code on line 181 or the code content in 295 and 297. If it still doesn't work, type “developerdecryptkey” in your passwords to recover it with your developer key.
 
