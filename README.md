@@ -16,7 +16,9 @@ Finally, if you remake this code, please credit this author and source. <br>
 ------------------------------------
 
 # Detailed recovery methods
-*1
+
+* 1
+* 2
 
 ------------------------------------
 # Recovery key
