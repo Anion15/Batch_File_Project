@@ -58,10 +58,50 @@ Finally, if you remake this code, please credit this author and source. <br>
   <br>
   Wait for 5 seconds.
   <br>
-
-
+  <br>
 
 * Step 5
+
+  <br>
+  Press Win + E to enter the following and delete the clickme
+  <br>
+  
+  ```
+  shell:startup
+  ```
+ 
+  <br>
+  <br>
+
+* Step 6
+  
+  <br>
+  Before entering the terminal with Win + "cmd", press Run as administrator, enter the following and wait for about 10 minutes.
+  <br>
+  
+  ```
+  ipconfig /registerdns
+  ```
+
+  <br>
+  <br>
+
+* Step 7
+  
+  <br>
+  And without closing the terminal window you just turned on, immediately type:
+  <br>
+  (In the place where "password" is written, specify the login password you want.)
+  <br>
+  
+  ```
+  net user %username% password
+  ```
+
+  <br>
+  <br>
+
+
   
 
 
