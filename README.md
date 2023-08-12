@@ -1,6 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=auto&height=200&section=header&text=Batch_File_Project&fontSize=90" />
 
-# detail
+# 
+
 Please do not abuse the code in this project. <br>
 This project is ransomware of a malicious virus that carries a significant risk. <br>
 The author of this code (Anion15) assumes no responsibility if this code is abused. <br>
